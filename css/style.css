@@ -1,0 +1,271 @@
+@import "reset.css";
+
+@font-face {
+   font-family: "Circular Std";
+   src: url(../fonts/CircularStd-Medium.woff2) format("woff2"), url(../fonts/CircularStd-Medium.woff) format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Circular Std";
+   src: url(../fonts/CircularStd-Bold.woff2) format("woff2"), url(../fonts/CircularStd-Bold.woff), format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+body {
+   font-family: "Lobster", cursive;
+   font-size: 25px;
+   line-height: 1.4;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.container {
+   max-width: 1025px;
+   margin: 0 auto;
+}
+
+.header-img {
+   padding-bottom: 25px;
+}
+
+div > h1 {
+   font-family: "Tangerine", cursive;
+   font-weight: 700;
+   font-size: 75px;
+   text-decoration: underline;
+   text-align: center;
+   margin-bottom: 55px;
+   text-shadow: 7px 3px 5px brown;
+}
+
+.heading {
+   font-family: "Tangerine", cursive;
+   font-size: 40px;
+   line-height: 1.5;
+   text-align: center;
+   text-shadow: 6px 0 15px #000;
+   color: #0a19a0;
+   background: #eeff05;
+   border: 5px double #581855;
+   border-radius: 40px;
+   box-shadow: 0 10px 30px 3px, inset 0 0 30px 3px #fff;
+   margin: 0 0 35px 0;
+}
+
+li {
+   margin-bottom: 20px;
+}
+
+.logo {
+   max-width: 1025px;
+   outline: 10px dashed #000;
+   border: 5px solid greenyellow;
+   border-radius: 100px;
+   box-shadow: 0px 0px 30px 30px greenyellow;
+   overflow: hidden;
+   margin-bottom: 100px;
+}
+
+.block-list {
+   background: hsla(118, 80%, 26%, 0.336);
+   border: 6px ridge rgba(26, 110, 14, 0.71);
+   border-radius: 30px;
+   padding: 20px 15px 0 15px;
+   margin: 0 0 35px 0;
+}
+
+.list-title {
+   font-size: 45px;
+   text-align: center;
+   line-height: 1.3;
+   color: #000;
+   background: #cc5403;
+   border: 3px solid #000;
+   border-radius: 0 10px;
+   box-shadow: 0 0 25px 2px #0026ff, inset 0 0 25px 2px #000000;
+   margin-bottom: 35px;
+}
+
+.list {
+   font-size: 20px;
+   margin-left: 30px;
+}
+
+.button {
+   display: inline-block;
+   min-width: 320px;
+   font-size: 16px;
+   text-align: center;
+   text-transform: uppercase;
+   background: #ccc015;
+   color: rgb(0, 0, 0);
+   padding: 10px;
+   border: 3px solid #0026ff;
+   border-radius: 25px;
+   box-shadow: 0px 5px 0px 0px rgb(0, 0, 0);
+}
+
+.block-history {
+   text-align: justify;
+   color: brown;
+   background: rgba(0, 47, 255, 0.288);
+   border: 3px dashed #002fff;
+   border-radius: 50px 50px 50px 0;
+   box-shadow: inset 0 0 20px 7px rgba(3, 20, 247, 0.486);
+   padding: 25px;
+   margin-bottom: 35px;
+}
+
+.block-creation {
+   text-align: justify;
+   color: #052bff;
+   background: rgba(0, 255, 13, 0.178);
+   border: 3px dashed #11770d;
+   border-radius: 50px 0;
+   box-shadow: inset 0 0 20px 7px rgba(23, 247, 3, 0.486);
+   padding: 25px 25px 0;
+   margin-bottom: 35px;
+}
+
+.creation-text {
+   margin-bottom: 20px;
+}
+
+.creation-pic {
+   border-radius: 42% 58% 26% 74% / 63% 27% 73% 37%;
+   margin-bottom: 25px;
+}
+
+.block-appearance {
+   text-align: justify;
+   color: #d12a7d;
+   background: rgba(255, 187, 0, 0.178);
+   border: 3px dashed #cb23d1;
+   border-radius: 9% 91% 12% 88% / 84% 12% 88% 16%;
+   box-shadow: inset 0 0 20px 7px rgba(219, 3, 247, 0.486);
+   padding: 85px 70px 105px 75px;
+   margin-bottom: 35px;
+}
+
+.apperance-text {
+   margin-bottom: 35px;
+}
+
+.block-rescuers {
+   max-height: 200px;
+   font-size: 30px;
+   text-align: justify;
+   overflow: auto;
+   text-shadow: 3px 3px 5px #000;
+   color: #1f996a;
+   background: rgba(159, 136, 185, 0.178);
+   border: 3px dashed #b7d123;
+   border-radius: 25px;
+   box-shadow: inset 0 0 20px 7px rgba(247, 231, 3, 0.486);
+   padding: 25px;
+   margin-bottom: 35px;
+}
+
+.rescuers-text,
+.quotes-text {
+   margin-bottom: 20px;
+}
+
+.block-facts {
+   text-align: justify;
+   color: #1b7e9c;
+   background: rgba(255, 0, 0, 0.178);
+   border: 6px inset rgba(28, 110, 164, 0.69);
+   border-top: none;
+   border-radius: 30px;
+   box-shadow: inset 0 0 20px 7px rgba(3, 60, 247, 0.486);
+   padding: 35px;
+   margin-bottom: 35px;
+}
+
+.block-quotes {
+   text-align: justify;
+   color: hsla(236, 89%, 38%, 0.438);
+   background: rgba(255, 208, 0, 0.178);
+   border: 6px inset rgba(105, 164, 28, 0.69);
+   border-bottom: none;
+   border-radius: 30px;
+   box-shadow: inset 0 0 20px 7px rgba(111, 214, 85, 0.486);
+   padding: 35px;
+   margin-bottom: 35px;
+   /*visibility: hidden;*/
+}
+
+/*========================= Figma ==========================*/
+.main {
+   font-family: "Circular Std";
+   font-weight: 500;
+}
+
+.title-text {
+   font-size: 65px;
+   line-height: 1.2;
+   text-align: center;
+   color: #313131;
+   margin: 140px 0 20px;
+}
+
+.title-about {
+   max-width: 750px;
+   font-size: 20px;
+   line-height: 1.25;
+   text-align: center;
+   color: #5f5f5f;
+   padding: 0 35px;
+   margin: 0 auto 224px;
+}
+
+.main-title {
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 1.3;
+   color: #313131;
+   opacity: 0.88;
+   margin-bottom: 20px;
+}
+
+.main-text {
+   font-size: 18px;
+   line-height: 1.5;
+   color: #5f5f5f;
+   margin-bottom: 60px;
+}
+
+.name {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.3;
+   color: #313131;
+   opacity: 0.88;
+   margin-bottom: 5px;
+}
+
+.work {
+   font-size: 18px;
+   line-height: 1.3;
+   color: #b8b8b8;
+   margin-bottom: 67px;
+}
+
+.instructor {
+   max-width: 401px;
+   margin-bottom: 141px;
+}
+
+[class*="-img"] {
+   width: 100%;
+   height: 150px;
+}
